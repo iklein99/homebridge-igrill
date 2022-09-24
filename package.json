@@ -1,7 +1,7 @@
 {
   "private": true,
   "displayName": "iGrill Plugin",
-  "name": "@iklein99/homebridge-igrill",
+  "name": "homebridge-igrill",
   "version": "1.0.0",
   "description": "Connects into an iGrill thermometer with the help of my Raspberry PI Server.",
   "license": "Apache-2.0",

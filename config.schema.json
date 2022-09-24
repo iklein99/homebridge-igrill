@@ -10,6 +10,16 @@
         "type": "string",
         "required": true,
         "default": "iGrill Plugin"
+      },
+      "serverAddress": {
+        "title": "Server Address",
+        "type": "string",
+        "required": true
+      },
+      "port": {
+        "title": "Port",
+        "type":"string",
+        "required": true
       }
     }
   }

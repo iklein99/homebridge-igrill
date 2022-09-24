@@ -48,7 +48,7 @@ export class IGrillAccessory implements AccessoryPlugin {
         this.api = api;
         this.name = PLUGIN_NAME;
         this.axInstance = axios.default.create({
-            baseURL: 'http://raspberrypi:5000/',
+            baseURL: `http://${config.serverAddress}:${config.port}`,
         });
 
         this.log.debug('iGrill Plugin Loaded');
