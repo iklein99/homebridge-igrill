@@ -173,7 +173,7 @@ export class IGrillAccessory implements AccessoryPlugin {
                         resolve();
                     } else {
                         // Assume a 404 which means the sensor is off or not connected to server
-                        this.log.info('iGrill appears to be off or not connected to server');
+                        this.log.debug('iGrill appears to be off or not connected to server');
                         this.currentStatus = DeviceStatus.NoProbe;
                         resolve;
                     }
