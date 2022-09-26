@@ -151,7 +151,7 @@ export class IGrillAccessory implements AccessoryPlugin {
         if (!temp) {
             return this.convertToCelcius(0);
         } else {
-            return (this.convertToCelcius(temp));
+            return (this.convertToCelcius(temp as number - 100));
         }
     }
 
